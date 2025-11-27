@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color:white;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    font-size: larger;
+}
+#hostbutton{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 300px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#logo{
+    width:100px;
+    height:100px;
+}
+main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.pinbox{
+    margin-top: 100px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    padding: 25px;
+    border-radius: 10px;
+}
+#enterbutton{
+    width: 350px;
+    border-radius: 8px;
+    height: 50px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: bold;
+}
+#pininput{
+    width: 345px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-style: bold;
+    font-size: 20px;
+    height: 50px;
+}

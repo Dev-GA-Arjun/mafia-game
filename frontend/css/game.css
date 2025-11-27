@@ -1,0 +1,15 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color:white;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    font-size: larger;
+}
+#logo{
+    width:100px;
+    height:100px;
+}

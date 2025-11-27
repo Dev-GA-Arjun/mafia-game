@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafia Game</title>
+    <link rel = "stylesheet" href = "createRoom.css">
+</head>
+<body>
+    <header>
+        <image id = "logo" src = "images/logo.png"></image>
+        <h1>Mafia Game</h1>
+    </header>
+    <hr>
+    <main>
+        <h1>Create New Game</h1>
+        <form id = "GameDetails">
+            <label>Enter Your Name</label>
+            <input class = "settings" type= "text" placeholder="Enter">
+            <label>Enter the Number of Players</label>
+            <input class = "settings" type="number" placeholder="Enter">
+            <label>Choose the Game Mode</label>
+            <select class = "settings">
+                <option value = "">Select Game Mode</option>
+                <option value = "classic">Classic</option>
+                <option value = "special">Extended roles</option>
+            </select>
+            <br>
+            <button id = "createbtn" type="submit">Create Game</button>
+        </form>
+    </main>
+    <script src = "main.js"></script>
+</body>
+</html>

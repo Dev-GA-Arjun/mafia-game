@@ -1,0 +1,58 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color:white;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    font-size: larger;
+    
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+.pindisplay{
+    color:rgb(0, 0, 0);
+    background-color: white;
+    width: 300px;
+    display: flex;
+    gap: 5px;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 10px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#lobby{
+    position: relative;
+    background-color:white;
+    width: 800px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#btn-start-game{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
